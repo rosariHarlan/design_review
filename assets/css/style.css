@@ -1,0 +1,242 @@
+/* ---------- General Styling ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  max-width: 100vw;
+  min-height: 100vh;
+  color: #2b2c2e;
+}
+
+a {
+  color: #27282a;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  color: #9fa2a7;
+}
+
+/* ---------- Nav Bar ---------- */
+
+nav {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 2em;
+}
+
+nav h1 {
+  font-size: 1.7em;
+  width: 22%;
+}
+
+nav li a:hover {
+  color: #848689;
+}
+
+input[type="submit"] {
+  background-color: #fff;
+  padding: 3px 40px;
+  font-size: 14;
+  box-shadow: none;
+  border: 1px solid #27282a;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #27282a;
+  color: #fff;
+}
+
+/* ---------- Header ---------- */
+
+header img {
+  width: 100%;
+  height: 80vh;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 2rem;
+  font-weight: 100;
+}
+
+header {
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+
+/* ---------- Review ---------- */
+
+#review {
+  display: flex;
+  gap: 9rem;
+  margin-bottom: 8rem;
+  margin-left: 13rem;
+}
+
+#review h4 {
+  width: 50%;
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+
+#review h1 {
+  font-weight: 100;
+}
+
+#review p {
+  width: 90%;
+  font-size: 12px;
+}
+
+/* ---------- Deliverables ---------- */
+
+#deliverables img {
+  width: 30%;
+  height: 70vh;
+  margin-left: 13rem;
+  margin-bottom: 8rem;
+}
+
+#deliverables {
+  display: flex;
+  gap: 3rem;
+}
+
+#content {
+  width: 35%;
+}
+
+#content h1 {
+  padding-bottom: 1em;
+}
+
+#content p {
+  line-height: 1.5em;
+  padding-bottom: 1em;
+}
+
+#content h3 {
+  padding-bottom: 0.7em;
+}
+
+/* ---------- Works ---------- */
+
+#works img {
+  width: 400px;
+  height: 370px;
+}
+
+#works {
+  background-color: #848689;
+  display: flex;
+  width: 70%;
+  margin-left: 13rem;
+  margin-right: 10rem;
+  margin-bottom: 8rem;
+}
+
+#works-content {
+  width: 50%;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+#works-content h1 {
+  padding-bottom: 0.3em;
+}
+
+#works-content p,
+#works-content li {
+  line-height: 1.2em;
+  padding-bottom: 1em;
+  color: #27282a;
+}
+
+/* ---------- Critique ---------- */
+
+#critique {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+#critique h1 {
+  margin-bottom: 1.5rem;
+}
+
+#critique p {
+  width: 50%;
+  margin: auto;
+  line-height: 1.5em;
+}
+
+/* ---------- Conversion ---------- */
+
+#sitting-guy img {
+  width: 40%;
+  height: 200px;
+  position: relative;
+  bottom: 60px;
+}
+
+#twenty-eight img {
+  width: 90%;
+}
+
+#sitting-guy {
+  display: flex;
+}
+
+#sitting-guy p {
+  line-height: 2em;
+  width: 25%;
+  margin-left: 17rem;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  border-top: 1px solid #3d3e41;
+  text-align: center;
+  margin-bottom: 5rem;
+  width: 70%;
+  margin-left: 15em;
+}
+
+footer img {
+  width: 100px;
+  height: 17vh;
+}
+
+#footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+#footer-content p {
+  align-self: flex-end;
+}
+
+footer h1 {
+  padding-top: 2em;
+}
